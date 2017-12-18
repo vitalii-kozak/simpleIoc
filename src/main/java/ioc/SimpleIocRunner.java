@@ -21,5 +21,8 @@ public class SimpleIocRunner {
         SimpleIoc ioC = new SimpleIoc(config);
         RepoBeanInterface repoBean = (RepoBeanInterface) ioC.getBean("repoBean");
         repoBean.calculate();
+        repoBean.calculate();
+        repoBean.calculate();
+        repoBean.calculate();
     }
 }
